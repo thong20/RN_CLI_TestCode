@@ -23,7 +23,7 @@ export default function HomeScreen(props) {
   const {navigation} = props;
   return (
     <View style={styles.container}>
-      <Text>HomeScreen Component</Text>
+      <Text>HomeScreen Component AAA</Text>
       <Button title="Go Detail" onPress={() => navigation.navigate('Detail')} />
     </View>
   );
