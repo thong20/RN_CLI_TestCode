@@ -29,7 +29,7 @@ export default function HomeScreen({navigation}) {
         <ListItem onPress={() => navigation.navigate('RealtimeDB')}>
           <Text>Realitme Database</Text>
         </ListItem>
-        <ListItem onPress={() => navigation.navigate('Auth')}>
+        <ListItem onPress={() => navigation.navigate('CloudFirestore')}>
           <Text>Cloud Firestore</Text>
         </ListItem>
         <ListItem onPress={() => navigation.navigate('Auth')}>
