@@ -5,6 +5,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 
 import HomeScreen from './screens/home';
 import AuthScreen from './screens/auth';
+import RealtimeDBScreen from './screens/realtimeDatabase';
 
 const Stack = createStackNavigator();
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Stack.Navigator headerMode="none" initialRouteName="Home">
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Auth" component={AuthScreen} />
+        <Stack.Screen name="RealtimeDB" component={RealtimeDBScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

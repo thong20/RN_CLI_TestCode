@@ -34,7 +34,8 @@ export default function AuthScreen({navigation}) {
 
   const signIn = () => {
     SignInUser(state.emailAddress, state.password)
-      .then((data) => console.log('data.user:', data.user))
+      // .then((data) => console.log('data.user:', data.user))
+      .then((data) => alert(data))
       .catch((err) => console.log(err));
     consoleLog(38);
   };
