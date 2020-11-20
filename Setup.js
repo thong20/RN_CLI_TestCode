@@ -1,10 +1,11 @@
 // import 'react-native-gesture-handler';
 import React from 'react';
 import App from './App';
-import firebase from '@react-native-firebase/app';
+import firebase, {utils} from '@react-native-firebase/app';
 import Auth from '@react-native-firebase/auth';
 import database from '@react-native-firebase/database';
 import firestore from '@react-native-firebase/firestore';
+import storage from '@react-native-firebase/storage';
 
 const firebaseConfig = {
   apiKey: 'AIzaSyDmyYL1bv5nRR86s9AxZlO4HwZN33dwxQg',
@@ -21,7 +22,7 @@ if (!firebase.apps.length) {
   firebase.initializeApp(firebaseConfig);
 }
 
-export {firebase, Auth, database, firestore};
+export {firebase, Auth, database, firestore, storage, utils};
 
 function Setup() {
   return <App />;
