@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "container:RN_CLI_TestCode.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:RN_CLI_TestCode.xcodeproj">
    </FileRef>
    <FileRef

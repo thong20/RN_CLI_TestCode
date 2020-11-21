@@ -161,7 +161,6 @@
 				CFB186A6E67F09FC03C35382 /* Pods-RN_CLI_TestCode-tvOSTests.debug.xcconfig */,
 				06607C587ACA7B0E5DD1276A /* Pods-RN_CLI_TestCode-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
